@@ -1,0 +1,92 @@
+body {
+  background: #fff;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-direction: row;
+}
+.close{
+    width: 70px;
+    margin-right: 30px;
+    background: #eee;
+    color: #000;
+}
+.size{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+}
+.fa-times{
+    color: azure;
+    background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.confirm{
+    width: 150px;
+}
+#cancel{
+    display: flex;
+    border-radius: 8px;
+    background: #eee;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 20px;
+    
+}
+.content{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.footer{
+    display: flex;
+    margin-top:20% ;
+    justify-content: center;
+}
+.modal {
+	background: #FFF;
+	width: 300px;
+	height: 260px;
+    padding-top: 20px;
+	padding-left: 20px;
+    padding-right: 20px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+		-moz-box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+			-webkit-box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+	position: fixed;
+	line-height: 25px;
+	z-index: 99;
+    border-radius: 16px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.modal a {
+  line-height: 1em;
+}
+.modal-bg {
+	background: #eee;
+	zoom: 1;
+	opacity: 0.6;
+	filter: alpha(opacity=80); 
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 9;
+}
+button{
+    border: none;
+    border-radius: 4px;
+    background: rgb(0,139,229);
+    width: 120px;
+    height: 30px;
+    color: #fff;
+}
